@@ -114,7 +114,7 @@ const BitcoinersPage: React.FC = () => {
             </div>
 
             {/* Team Photos */}
-            <div className="col-span-1 relative h-[242px] flex justify-end pt-0">
+            <div className="col-span-1 relative h-[242px] flex justify-end pt-0 -mt-20">
               <Image 
                 src={TeamPhotoOne} 
                 alt="Team Photo 1" 
