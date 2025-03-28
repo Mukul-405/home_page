@@ -9,6 +9,8 @@ import Paytm from "./Paytm";
 import SwapSoSuite from "./SwapSoSuite";
 import Phone from "./Phone";
 import Phone_view from "./Phone_view";
+import EcosystemPage from "./EcosystemPage";
+import BitcoinersPage from "./BitcoinersPage";
 
 export default function Home() {
   return (
@@ -27,6 +29,8 @@ export default function Home() {
         {/* <SwapSoSuite /> */}
         <SwapSoSuite />
         <Paytm />
+        <EcosystemPage />
+        <BitcoinersPage />
         <Footer />
       </div>
     </ParallaxProvider>
